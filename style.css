@@ -1,7 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   height: 100vh;
   margin: 0;
@@ -43,6 +43,10 @@ body {
 
 .container {
   text-align: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .center-image {
@@ -54,4 +58,11 @@ body {
 p {
   margin-top: 20px;
   color: #666;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  bottom: 0;
 }
