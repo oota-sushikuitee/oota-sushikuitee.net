@@ -67,6 +67,38 @@ p {
   font-weight: normal;
 }
 
+.tools {
+  margin-top: 30px;
+}
+
+.tools-heading {
+  margin: 0 0 10px;
+  color: #666;
+  font-size: 1em;
+  font-weight: normal;
+}
+
+.tools-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tools-list li {
+  margin-top: 8px;
+  color: #666;
+  font-size: 0.9em;
+}
+
+.tools-list a {
+  color: #333;
+  text-decoration: none;
+}
+
+.tools-list a:hover {
+  text-decoration: underline;
+}
+
 .footer {
   width: 100%;
   text-align: center;
