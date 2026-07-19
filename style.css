@@ -73,3 +73,12 @@ p {
   padding: 10px;
   bottom: 0;
 }
+
+.footer-link {
+  color: #666;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
