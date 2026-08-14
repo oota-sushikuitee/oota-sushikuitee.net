@@ -19,3 +19,6 @@ jobs:
           stale-pr-message: "This pull request has been inactive for 60 days and is marked as stale. It will be closed in 7 days if there is no further activity."
           close-issue-message: "Closing this issue because it has been stale for 7 days with no activity."
           close-pr-message: "Closing this pull request because it has been stale for 7 days with no activity."
+          # Pin the label name: the action defaults to "Stale", which would auto-create an off-convention capitalized label.
+          stale-issue-label: "stale"
+          stale-pr-label: "stale"
