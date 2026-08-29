@@ -15,6 +15,8 @@ jobs:
     steps:
       - uses: actions/stale@4391f3da665fdf50b6810c1a66712fb9ba21aa93 # v11.0.0
         with:
+          days-before-stale: 60
+          days-before-close: 7
           stale-issue-message: "This issue has been inactive for 60 days and is marked as stale. It will be closed in 7 days if there is no further activity."
           stale-pr-message: "This pull request has been inactive for 60 days and is marked as stale. It will be closed in 7 days if there is no further activity."
           close-issue-message: "Closing this issue because it has been stale for 7 days with no activity."
