@@ -60,6 +60,12 @@ p {
   color: #666;
 }
 
+/* Underlined so the link is not distinguished by color alone (WCAG 1.4.1). */
+.home-link {
+  color: #1a1a1a;
+  text-decoration: underline;
+}
+
 .tagline {
   margin: 20px 0 0;
   color: #666;

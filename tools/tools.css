@@ -11,11 +11,17 @@
   font-size: 0.9em;
 }
 
+/*
+  Underlined at rest so the link is not distinguished from the surrounding
+  list text by color alone (WCAG 1.4.1); the darker color also lifts the
+  link/text contrast above 3:1.
+*/
 .tools-list a {
-  color: #333;
-  text-decoration: none;
+  color: #1a1a1a;
+  text-decoration: underline;
 }
 
-.tools-list a:hover {
-  text-decoration: underline;
+.tools-list a:hover,
+.tools-list a:focus-visible {
+  text-decoration-thickness: 2px;
 }
